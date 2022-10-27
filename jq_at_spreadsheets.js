@@ -1,3 +1,5 @@
 #! /usr/bin/env node
 
-console.log('jq-at-spreadsheets');
+const jqAtSpreadsheets = require('./index');
+
+jqAtSpreadsheets.evalArguments(...process.argv);
