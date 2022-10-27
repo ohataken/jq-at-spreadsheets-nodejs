@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ohataken/jq-at-spreadsheets-nodejs/issues"
   },
-  "homepage": "https://github.com/ohataken/jq-at-spreadsheets-nodejs#readme"
+  "homepage": "https://github.com/ohataken/jq-at-spreadsheets-nodejs#readme",
+  "dependencies": {
+    "@googleapis/sheets": "^3.0.2"
+  }
 }
