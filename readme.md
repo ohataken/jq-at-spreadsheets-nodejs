@@ -14,6 +14,13 @@ echo '{ "results": [{ "id": 1, "name": "alice" }, { "id": 2, "name": "bob" }] }'
 
 してください。
 
+```
+git clone https://github.com/ohataken/jq-at-spreadsheets-nodejs.git
+cd jq-at-spreadsheets-nodejs
+npm install
+npm link
+```
+
 ### Google Cloud Platform で OAuth 2.0 クライアント ID を作成し、ダウンロードする。
 
 以下のような内容のものです。これを `~/.jq_at_spreadsheets_credentials.json` に保存してください。
